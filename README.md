@@ -11,5 +11,6 @@ git apply patches/react-native-safe-area-context.patch
 open ios/TestLibs.xcworkspace
 yarn start
 ```
+In Xcode, open the AppDelegate and enable BridgelessMode.
 
 Run from Xcode
