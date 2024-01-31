@@ -111,7 +111,7 @@
 +    adjustedStyle.setMargin(yoga::Edge::Bottom, bottom);
    }
 
--   auto currentStyle = yogaNode_.getStyle();
+-  auto currentStyle = yogaNode_.getStyle();
 -  if (adjustedStyle.padding()[YGEdgeTop] != currentStyle.padding()[YGEdgeTop] ||
 -      adjustedStyle.padding()[YGEdgeLeft] !=
 -          currentStyle.padding()[YGEdgeLeft] ||
@@ -125,7 +125,7 @@
 -          currentStyle.margin()[YGEdgeRight] ||
 -      adjustedStyle.margin()[YGEdgeBottom] !=
 -          currentStyle.margin()[YGEdgeBottom]) {
-+   auto currentStyle = yogaNode_.style();
++  auto currentStyle = yogaNode_.style();
 +  if (adjustedStyle.padding(yoga::Edge::Top) != currentStyle.padding(yoga::Edge::Top) ||
 +      adjustedStyle.padding(yoga::Edge::Left) != currentStyle.padding(yoga::Edge::Left) ||
 +      adjustedStyle.padding(yoga::Edge::Right) != currentStyle.padding(yoga::Edge::Right) ||
